@@ -10,7 +10,7 @@
 #include "RtspTypes.h"
 
 #ifdef _DEBUG
-#include <vld.h>
+//#include <vld.h>
 #include "BasicHashTable.hh"
 #endif
 #include "trace.h"
@@ -521,7 +521,7 @@ int main_(int argc, char *argv[])
 
 		getchar();
 
-	
+	 
 		//œ»πÿ±’‘¥
 		for (int i=0; i<MAX_CHANNEL_NUM; i++)
 		{
